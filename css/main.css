@@ -1,0 +1,57 @@
+.border-solid {
+  border: 3px solid rgba(80, 79, 79, 0.548);
+}
+
+.custom-card {
+  border: 3px solid rgba(80, 79, 79, 0.548);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  min-height: 12rem;
+}
+
+.custom-card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 60%;
+}
+
+.custom-card div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.b-white {
+  background-color: whitesmoke;
+}
+
+.inner-div > div {
+  height: 100vh;
+}
+
+#savedProducts {
+  overflow-y: auto;
+  max-height: 90%;
+}
+/*# sourceMappingURL=main.css.map */
